@@ -2,17 +2,17 @@ html, body{
     margin: 0%;
     padding: 0%;
     width: 100%;
-    background-color: rgb(245, 6, 6);
+    background-color: rgba(146, 228, 135, 0.747);
 
 }
-/*Configura o TEXTO*/
-.menu-principal h1 {
-    margin-top: 20%;
+/*Configura o TEXTO que se movimenta*/
+.texto-movimento h1 {
+    margin-top: 0%;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: aliceblue;
-    font-size: 10em;
-    text-shadow: 0 1px 0 rgb(255, 255, 255),
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    text-shadow: 0 1px 0 rgb(248, 248, 248),
     0 2px 0 rgb(161, 160, 160),
     0 3px 0 rgb(201, 199, 199),
     0 4px 0 rgb(189, 186, 186),
@@ -25,10 +25,42 @@ html, body{
     0 10px 10px rgba(0,0,0,.2),
     0 20px 20px rgba(0,0,0,.15);
 }
-marquee{
-    margin-top: 10%;
+.menu {/*Configura o corpo do menu*/
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    padding: 1%;
+    background-color: orange;
+    bottom: unset;
+}
+.menu a{/*Ajusta os titulos do menu*/
+    font-size: 1.4em;
+    color:#000000;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0.5%;
+}
+marquee{/*Bordas do Texto em movimento*/
     BORDER-RIGHT: #fafafa solid; 
     BORDER-TOP: #f8f7f7  solid; 
     BORDER-LEFT: #fdfdfd  solid; 
     BORDER-BOTTOM: #f8f8f8  solid;
+    background-color: orange;
+}
+.titulo-produtos{/* Ajusta o Titulo Produto*/
+    text-align: center;
+    font-size: 2em;
+    color:black;
+    text-shadow: 0 1px 0 rgb(27, 27, 27),
+    0 2px 0 rgb(31, 29, 29),
+    0 3px 0 rgb(51, 49, 49),
+    0 4px 0 rgb(189, 186, 186),
+    0 5px 0 rgb(145, 145, 145),
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
 }
